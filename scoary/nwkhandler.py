@@ -3,9 +3,8 @@ import sys
 try:
     from ete3 import Tree
     from ete3.parser.newick import NewickError
-    import six
 except ImportError:
-    sys.exit("ERROR: Could not import ete3. You need 'ete3' AND 'six' installed to read custom trees.")
+    sys.exit("ERROR: Could not import ete3. You need 'ete3' installed to read custom trees.")
 
 def ReadTreeFromFile(filepath):
     """

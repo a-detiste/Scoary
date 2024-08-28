@@ -45,9 +45,8 @@ All changes are logged in the [CHANGELOG](CHANGELOG.md)
 #### If you supply custom trees (Optional)
 
 - ete3
-- six
 
-Note that ete3 and six are not automatically installed. You can do `pip install ete3 six` to get them
+Note that ete3 is not automatically installed. You can do `pip install ete3` to get it
 
 #### Using the GUI (Optional)
 
